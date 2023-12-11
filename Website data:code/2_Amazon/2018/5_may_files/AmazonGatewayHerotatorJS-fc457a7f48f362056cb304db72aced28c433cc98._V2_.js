@@ -1,0 +1,52 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(function(b){var a=window.AmazonUIPageJS||window.P,c=a._namespace||a.attributeErrors,d=c?c("AmazonGatewayHerotatorJS"):a;d.guardFatal?d.guardFatal(b)(d,window):d.execute(function(){b(d,window)})})(function(b,a,c){b.when("generic-observable").register("gw-herotator-controller",function(a){var b=function(){};return function(m){function c(){y.notifyObservers("delayBegin")}function q(){y.notifyObservers("delayInterrupted")}function g(a){for(var b=0;b<B.length;b++)if(B[b]===a)return b+1}function h(a){a=
+a||{};return{delay_complete:a.delay_complete||b,js_ready:a.js_ready||b,fg_loaded:a.fg_loaded||b,mouse_move:a.mouse_move||b,mouse_leave:a.mouse_leave||b,delay_interrupted_timeout:a.delay_interrupted_timeout||b,rotation_complete:a.rotation_complete||b,goto_card:function(a){a!==A&&w.user_navigation(B[a-1])},user_navigation:a.user_navigation||function(a){w=new t(a)},user_interaction:a.user_interaction||function(){w.user_navigation(B[A-1])},stop_autorotation:a.stop_autorotation||function(){w.user_navigation(B[A-
+1])},pause:a.pause||b,resume:a.resume||b}}function f(){function a(){!f&&D[b]&&(w=1===z?new u:new r)}c();var b=B[(A-1+1)%z+1-1],f=!0;return new h({fg_loaded:function(f){f===b&&a()},delay_complete:function(){f=!1;a()},mouse_move:function(){w=new n},pause:function(){w=new l}})}function n(){q();return new h({mouse_move:q,mouse_leave:function(){w=new f},delay_interrupted_timeout:function(){w.mouse_leave()},pause:function(){w=new l(!0)}})}function l(a){q();return new h({mouse_move:function(){a=!0;q()},
+mouse_leave:function(){a=!1},resume:function(){w=a?new n:0<H?new f:new u}})}function r(){y.notifyObservers("autorotating");A=(A-1+1)%z+1;y.notifyObservers("gotoCard",A);H--;return new h({rotation_complete:function(){w=0<H?new f:new u},mouse_move:function(){w=0<H?new e:new u},pause:function(){w=new x}})}function e(a){var b=!1;return new h({rotation_complete:function(){c();w=b?new l:new n},pause:function(){b=!0},resume:function(){b=!1}})}function x(){var a=!1;return new h({rotation_complete:function(){c();
+w=new l(a)},mouse_move:function(){a=!0},mouse_leave:function(){a=!1}})}function t(a){y.notifyObservers("userNavigation");A=g(a);y.notifyObservers("gotoCard",A);return new h({rotation_complete:function(){w=new u},user_navigation:function(a){w=new v(a)},user_interaction:b})}function v(a){return new h({rotation_complete:function(){w=new t(a)},user_navigation:function(b){a=b},user_interaction:b})}function u(){y.notifyObservers("stopAutorotation");return new h({})}m=m||{};var y=new a,w=new function(){function a(){D[C]&&
+e&&(y.notifyObservers("ready"),w=new f,l&&w.pause(),n&&w.stop_autorotation())}var e=!1,n=!1,l=!1;return new h({fg_loaded:function(b){b===C&&a()},js_ready:function(){e=!0;a()},user_navigation:b,stop_autorotation:function(){n=!0},pause:function(){l=!0},resume:function(){l=!1}})},B=m.fgIDs||[],z=B.length,C=B[0],A=m.card_num||1,D={},H=m.circular?Infinity:z;return{delayComplete:function(){w.delay_complete()},jsReady:function(){w.js_ready()},fgLoaded:function(a){D[a]=!0;C===a&&y.notifyObservers("atfLoaded");
+w.fg_loaded(a)},mouseMove:function(){w.mouse_move()},mouseLeave:function(){w.mouse_leave()},delayInterruptedTimeout:function(){w.delay_interrupted_timeout()},rotationComplete:function(){w.rotation_complete()},gotoCard:function(a){w.goto_card(a)},userInteraction:function(){w.user_interaction()},userNavigation:function(a){w.user_navigation(a)},stopAutorotation:function(){w.stop_autorotation()},pause:function(){w.pause()},resume:function(){w.resume()},addObserver:y.addObserver,removeObserver:y.removeObserver}}});
+b.when("herotator-btf").register("herotator",function(a){return a});b.register("herotator-btf",function(){return function(d,c){function m(a){return function(){b.when("gw-desktop-herotator/controller").execute(function(){J[a]()})}}function p(a,b,f){a.addEventListener?a.addEventListener(b,f,!1):a.attachEvent("on"+b,f)}function q(a,f){z[a]=[];var n=f.length;if(0<n)for(var l=0;l<n;l++)(function(n){var l=new Image;l.onload=function(){z[a].splice(e(z[a],l),1);z[a]&&0===z[a].length&&
+b.when("gw-desktop-herotator/controller").execute(function(){var b=document.getElementById("gw-ftGr-"+a),f=b.className,f=f.replace(/\s*\ba\-lazy\-loaded\b\s*/,"");b.className=f;J.fgLoaded(a)});b.when("A").execute(function(b){var f=b.$("#gw-ftGr-"+a+" img.a-dynamic-image");b.loadDynamicImage(f)})};z[a].push(l);l.src=f[n].src})(l);else b.when("gw-desktop-herotator/controller").execute(function(){J.fgLoaded(a)})}function g(){B=Date.now()}function h(){D||l()}function f(){G=G?Math.min(G,Date.now()):Date.now();
+clearTimeout(y.timeout_id);clearTimeout(f.timeout_id);f.timeout_id=setTimeout(function(){f.timeout_id=0;J.delayInterruptedTimeout()},3E3)}function n(){D=!0}function l(){l.sent||(clearTimeout(l.timeout),l.timeout=setTimeout(function(){r(d.uri,d.data);l.sent=!0},2E3))}function r(a,f){b.when("A").execute(function(b){b.$.ajax(a,{async:!1,cache:!1,type:"post",data:f})})}function e(a,b){if(a.indexOf)return a.indexOf(b);for(var f=0;f<a.length;f++)if(a[f]===b)return f}function x(){return U=U||v()}function t(b){"object"===
+typeof a.ue&&"function"===typeof a.ue.count&&a.ue.count(b,(a.ue.count(b)||0)+1)}function v(){var a=L(".a-carousel-rounded-buttons .a-carousel-left,.a-carousel-rounded-buttons .a-carousel-right");L(".a-carousel-rounded-buttons .a-carousel-left").attr("cel_widget_id","gw-desktop-hero-left-cel");L(".a-carousel-rounded-buttons .a-carousel-right").attr("cel_widget_id","gw-desktop-hero-right-cel");L(".a-carousel-rounded-buttons .a-carousel-left").addClass("celwidget");L(".a-carousel-rounded-buttons .a-carousel-right").addClass("celwidget");
+L(".a-carousel-rounded-buttons .a-carousel-left").click(function(a){t("gw-desktop-hero-left")});L(".a-carousel-rounded-buttons .a-carousel-right").click(function(a){t("gw-desktop-hero-right")});return{show:function(){a.show();L(".a-carousel-left").css("z-index",10);L(".a-carousel-right").css("z-index",10)},hide:function(){a.hide()}}}function u(){var f=L("#gw-desktop-herotator");f.addClass("gw-desktop-herotator-ready");b.register("herotator-controls",function(){1<f.find(".a-carousel-card").length?
+(x().show(),a.GWI&&a.GWI.recordLatency("gwHerotatorActive")):x().hide()})}function y(a){H<G&&(A-=G-H,G=0);H=Date.now();y.timeout_id=setTimeout(function(){A=C;J.delayComplete()},A)}function w(a,b){w.current_card!==b&&(w.current_card=b,F.gotoPage(b),T.notifyObservers("page_changed"));setTimeout(function(){J.rotationComplete()},250)}var B=Date.now(),z={},C=5E3,A=C,D=!1,H=0,G=0,F,L,K=document.getElementById("gw-desktop-herotator").getElementsByTagName("ol")[0],T,J,U;p(K,"click",m("userInteraction"));
+p(K,"mouseenter",m("mouseMove"));p(K,"mousemove",m("mouseMove"));p(K,"mouseleave",m("mouseLeave"));p(K,"touchstart",m("userInteraction"));p(K,"touchmove",m("userInteraction"));p(K,"touchend",m("userInteraction"));p(K,"touchcancel",m("userInteraction"));for(var K=document.getElementById("gw-desktop-herotator").getElementsByTagName("li")[0],N=0,O=K.childNodes[N];O&&"div"!==String(O.nodeName).toLowerCase();)N++,O=K.childNodes[N];N=O;K=String(N.id).replace(/^gw-ftGr-/,"");N=N.getElementsByTagName("img");
+q(K,N||[]);for(var R=[K],K=0;c[K];)R.push(c[K].fgID),K++;b.when("gw-herotator-controller").execute(function(a){J=new a({fgIDs:R});J.addObserver("atfLoaded",g);J.addObserver("delayBegin",y);J.addObserver("delayInterrupted",f);J.addObserver("gotoCard",w);J.addObserver("userNavigation",h);J.addObserver("stopAutorotation",n);J.addObserver("ready",function(){var a=Date.now()-B;A=Math.max(C-a,1);u();L("#gw-desktop-herotator").addClass("gw-desktop-herotator-ready")});b.register("gw-desktop-herotator/controller");
+b.when("generic-observable").register("gw-desktop-herotator",function(a){T=new a;return{getAutorotationDelay:function(){return C},setAutorotationDelay:function(a){a=parseInt(a,10);A=a-(C-A);C=a},stopAutorotation:function(){J.stopAutorotation()},disableNavigation:function(){x().hide();F.pause()},enableNavigation:function(){x().show();F.resume()},pause:function(){J.pause()},resume:function(){J.resume()},addObserver:T.addObserver,removeObserver:T.removeObserver}})});b.when("A","a-carousel-framework",
+"gwAjax").execute(function(f,e,n){function l(){var b=0;for(a.GWI&&a.GWI.recordLatency("gw-hero-btf-populate");c[b];){var f=c[b].fgID,e=c[b].content,n=document.getElementById("gw-ftGr-"+f);L(n).html(e);e=n.getElementsByTagName("img");q(f,e);b++}}L=f.$;e.onInit("gateway-desktop-layout.herotator",function(){var a=f.$("#gw-desktop-herotator > .a-carousel-container");F=e.getCarousel(a);F.onChange("pageNumber",function(){var a=F.getAttr("pageNumber");J.gotoCard(a);a-=2;c[a]&&c[a].callbackUrl&&(n(c[a].callbackUrl,
+{type:"POST",id:"desktop-herotator-btf-"+c[a].fgID}),delete c[a].callbackUrl)});l();b.when("gw-desktop-herotator").register("gw-desktop-herotator/dom-ready");b.when("gw-desktop-herotator/controller","gw-desktop-herotator").execute(function(){J.jsReady()})})})}})});
+
+}
+/*
+     FILE ARCHIVED ON 21:56:27 Apr 30, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 22:15:07 Dec 11, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 130.216
+  exclusion.robots: 0.063
+  exclusion.robots.policy: 0.055
+  cdx.remote: 0.051
+  esindex: 0.008
+  LoadShardBlock: 101.51 (3)
+  PetaboxLoader3.datanode: 129.31 (4)
+  load_resource: 148.546
+  PetaboxLoader3.resolve: 91.705
+*/
