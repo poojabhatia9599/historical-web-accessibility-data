@@ -1,0 +1,41 @@
+/*
+ * See: https://fonts.google.com/license/googlerestricted
+ */
+@font-face {
+  font-family: 'YT Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://web.archive.org/web/20210301003208im_/https://fonts.gstatic.com/s/ytsans/v10/46kqlb3ta3zqoJU2dePmb0Jg1w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YT Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://web.archive.org/web/20210301003208im_/https://fonts.gstatic.com/s/ytsans/v10/46kqlb3ta3zqoJU2dbvnb0Jg1w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20210301003208im_/https://fonts.gstatic.com/s/ytsans/v10/46kqlb3ta3zqoJU2dfPhb0Jg1w.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 00:32:08 Mar 01, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:20:14 Dec 11, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.069
+  exclusion.robots.policy: 0.059
+  cdx.remote: 0.09
+  esindex: 0.009
+  LoadShardBlock: 74.263 (6)
+  PetaboxLoader3.datanode: 88.794 (7)
+  load_resource: 62.705
+  PetaboxLoader3.resolve: 42.131
+*/

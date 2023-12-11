@@ -1,0 +1,36 @@
+/*
+ * See: https://fonts.google.com/license/googlerestricted
+ */
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20210301003209im_/https://fonts.gstatic.com/s/youtubesans/v7/Qw3aZQNGEDjaO2m6tqIqX5EUDXx9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://web.archive.org/web/20210301003209im_/https://fonts.gstatic.com/s/youtubesans/v7/Qw3FZQNGEDjaO2m6tqIqX5Ec_l9te10k.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 00:32:09 Mar 01, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:20:17 Dec 11, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1300.52
+  exclusion.robots: 0.107
+  exclusion.robots.policy: 0.095
+  cdx.remote: 0.076
+  esindex: 0.011
+  LoadShardBlock: 98.266 (4)
+  PetaboxLoader3.datanode: 136.733 (5)
+  load_resource: 902.279
+  PetaboxLoader3.resolve: 823.12
+*/

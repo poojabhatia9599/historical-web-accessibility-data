@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20210201000925im_/https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_ROW9.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20210201000925im_/https://fonts.gstatic.com/s/robotomono/v13/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_Of2_ROW9.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 00:09:25 Feb 01, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:08:30 Dec 11, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.138
+  exclusion.robots.policy: 0.124
+  cdx.remote: 0.139
+  esindex: 0.014
+  LoadShardBlock: 421.382 (6)
+  PetaboxLoader3.datanode: 215.241 (8)
+  load_resource: 976.176 (2)
+  PetaboxLoader3.resolve: 169.978 (2)
+*/

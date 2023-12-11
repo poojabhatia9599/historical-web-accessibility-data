@@ -1,0 +1,100 @@
+/*
+ * See: https://fonts.google.com/license/googlerestricted
+ */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/youtubesans/v16/Qw3hZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HMXfxQASluL2m_dAWVaAAQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/youtubesans/v16/Qw3hZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HMXfxQASluL2m_dAB1aAAQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/youtubesans/v16/Qw3hZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HMXfxQASluL2m_dANVaAAQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/youtubesans/v16/Qw3hZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HMXfxQASluL2m_dA2VGAAQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/youtubesans/v16/Qw3hZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HMXfxQASluL2m_dA4FGAAQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/youtubesans/v16/Qw3hZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HMXfxQASluL2m_dAh1GAAQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'YouTube Sans';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(https://web.archive.org/web/20221201000214im_/https://fonts.gstatic.com/s/youtubesans/v16/Qw3hZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HMXfxQASluL2m_dArlGAAQ.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 00:02:14 Dec 01, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:40:38 Dec 11, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.067
+  exclusion.robots.policy: 0.058
+  cdx.remote: 0.089
+  esindex: 0.009
+  LoadShardBlock: 1583.815 (6)
+  PetaboxLoader3.datanode: 1518.868 (7)
+  load_resource: 90.907
+  PetaboxLoader3.resolve: 49.968
+*/
