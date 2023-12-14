@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+YUI.add("td-applet-trending-atomic-templates-main",function(t,e){dust.cache=dust.cache||{},dust.cache[e]=function(t){function e(t,e){return t.w("<div>").nx(e.getPath(!1,["config","ui","inlineTnEnabled"]),e,{"else":n,block:a},{}).w("\n</div>\n")}function n(t,e){return t.p("partials/inline_trending",e,{})}function a(t,e){return t.x(e.getPath(!1,["config","ui","titleEnabled"]),e,{block:i},{}).nx(e.getPath(!1,["config","ui","categorizationEnabled"]),e,{"else":p,block:_},{})}function i(t,e){return t.nx(e.getPath(!1,["config","ui","categorizationEnabled"]),e,{"else":s,block:d},{})}function s(t,e){return t.p("partials/categorization_header",e,{})}function d(t,e){return t.w('<h2 class="Fz(15px) D(b) Ell Ov(v)"><span class="trending-title Cur(p) D(ib) W(50%) selected" data-category="').f(e.getPath(!1,["config","ui","mainTabCategory"]),e,"h").w('"><div class="blur_C($disabledHeading) Trs($trendTrs)">').s(e.get(["showPersonalTitle"],!1),e,{"else":r,block:c},{}).w("</div></span>").x(e.getPath(!1,["config","ui","secondTabEnabled"]),e,{block:l},{}).x(e.getPath(!1,["config","ui","seachIconEnabled"]),e,{block:g},{}).w("</h2>")}function r(t,e){return t.h("i18n_string",e,{},{_key:e.getPath(!1,["config","ui","titleKey"])})}function c(t,e){return t.h("i18n_string",e,{},{_key:e.getPath(!1,["config","ui","personalizedTitle"])})}function l(t,e){return t.w('<span class="trending-title Cur(p) D(ib) W(50%) blur" data-category="').f(e.getPath(!1,["config","ui","secondTabCategory"]),e,"h").w('"><div class="blur_C($disabledHeading) Trs($trendTrs) Pos(r)"><i class="Icon-Fp2 ').f(e.getPath(!1,["config","ui","secondTabIcon"]),e,"h").w(" selected_C($").f(e.getPath(!1,["config","ui","secondTabCategory"]),e,"h").w(') Fz(20px) Fw(100) Pos(a) Start(-19px) T(-4px)"></i><span class="Mstart(4px)">').s(e.get(["customSecondTabTitle"],!1),e,{"else":o,block:u},{}).w("</span></div></span>")}function o(t,e){return t.h("i18n_string",e,{},{_key:e.getPath(!1,["config","ui","secondTabTitleKey"])})}function u(t,e){return t.f(e.get(["customSecondTabTitle"],!1),e,"h")}function g(t,e){return t.w('<i class="D(ib) Icon-Fp2 IconNavSearch Pstart(4px)"></i>')}function p(t,e){return t.p("partials/categorization_body",e,{})}function _(t,e){return t.w('<ul class="Pos(r) Mt(10px)">\n        <li class="trending-list selected" data-category="').f(e.getPath(!1,["config","ui","mainTabCategory"]),e,"h").w('">\n            <ul class="M(0) Mstart(-8px) ua-ie8_W(100%) ua-ie7_W(100%) blur_V(h) blur_Op(0) selected_Op(1) Trs($trendTrs)">').s(e.get(["mainTabTerms"],!1),e,{block:h},{}).w("</ul>\n        </li>").x(e.getPath(!1,["config","ui","secondTabEnabled"]),e,{block:m},{}).w("</ul>")}function h(t,e){return t.w('<li class="trending-item Pt(7px) D(ib) Bxz(bb) W(50%) ').h("lt",e,{block:b},{key:e.get(["$idx"],!1),value:e.getPath(!1,["config","ui","columnSize"])}).w(' ua-ie7_Pend(5px)">\n                    <a href="').f(e.get(["link"],!1),e,"h").w('" class="Td(n):h C($link) Fz(13px) Ell D(ib)" title="').f(e.get(["text"],!1),e,"h",["s"]).w('" ').h("rapid_data_attr",e,{},{"rapid-base":e.get(["i13n"],!1),elm:"itm",elmt:"topic",itc:"0"}).w('>\n                        <span class="D(ib) W(1.3em) Ta(e) C(#000)">').h("math",e,{},{key:f,method:"add",operand:"1"}).w('.</span><span class="C($searchBlue):h Fw(b) Mstart(2px)"> ').f(e.get(["text"],!1),e,"h",["s"]).w("</span>\n                    </a>\n                </li>")}function b(t,e){return t.w(" Fl(start) Cl(start)")}function f(t,e){return t.f(e.get(["$idx"],!1),e,"h")}function m(t,e){return t.w('<li class="trending-list blur Pos(a) T(0) W(100%)" data-category="').f(e.getPath(!1,["config","ui","secondTabCategory"]),e,"h").w('">\n            <ul class="M(0) Mstart(-8px) ua-ie8_W(100%) ua-ie7_W(100%) blur_V(h) blur_Op(0) selected_Op(1) blur_H(0) Ov(h) Trs($trendTrs)">').s(e.get(["secondTabTerms"],!1),e,{block:y},{}).w("</ul>\n        </li>")}function y(t,e){return t.w('<li class="trending-item Pt(7px) D(ib) Bxz(bb) W(50%) ').h("lt",e,{block:w},{key:e.get(["$idx"],!1),value:e.getPath(!1,["config","ui","columnSize"])}).w(' ua-ie7_Pend(5px)">\n                        <a href="').f(e.get(["link"],!1),e,"h").w('" class="Td(n):h C($link) Fz(13px) Ell D(ib)" title="').f(e.get(["text"],!1),e,"h",["s"]).w('" ').h("rapid_data_attr",e,{},{"rapid-base":e.get(["i13n"],!1),elm:"itm",elmt:"topic",itc:"0"}).w('>\n                            <span class="D(ib) W(1.3em) Ta(e) C(#000)">').h("math",e,{},{key:T,method:"add",operand:"1"}).w('.</span><span class="C($searchBlue):h Fw(b) Mstart(2px)"> ').f(e.get(["text"],!1),e,"h",["s"]).w("</span>\n                        </a>\n                    </li>")}function w(t,e){return t.w(" Fl(start) Cl(start)")}function T(t,e){return t.f(e.get(["$idx"],!1),e,"h")}return dust.register("td-applet-trending-atomic-templates-main",e),e.__dustBody=!0,n.__dustBody=!0,a.__dustBody=!0,i.__dustBody=!0,s.__dustBody=!0,d.__dustBody=!0,r.__dustBody=!0,c.__dustBody=!0,l.__dustBody=!0,o.__dustBody=!0,u.__dustBody=!0,g.__dustBody=!0,p.__dustBody=!0,_.__dustBody=!0,h.__dustBody=!0,b.__dustBody=!0,f.__dustBody=!0,m.__dustBody=!0,y.__dustBody=!0,w.__dustBody=!0,T.__dustBody=!0,e}(),dust.cache["td-applet-trending-atomic:main.dust"]=dust.cache["td-applet-trending-atomic:main"]=dust.cache[e],t.Template._cache=t.Template._cache||{},t.Template._cache["td-applet-trending-atomic/templates/main"]=function(t,n){t=t||{},dust.render(e,t,n)}},"@VERSION@",{requires:["template-base","dust","td-applet-trending-atomic-templates-partials-categorization_header","td-applet-trending-atomic-templates-partials-categorization_body","td-applet-trending-atomic-templates-partials-inline_trending"]});
+
+}
+/*
+     FILE ARCHIVED ON 13:43:02 Jan 31, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:43:09 Dec 13, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 228.513
+  exclusion.robots: 0.125
+  exclusion.robots.policy: 0.115
+  cdx.remote: 0.055
+  esindex: 0.009
+  LoadShardBlock: 150.824 (3)
+  PetaboxLoader3.datanode: 194.574 (5)
+  load_resource: 130.872 (2)
+  PetaboxLoader3.resolve: 83.873 (2)
+*/

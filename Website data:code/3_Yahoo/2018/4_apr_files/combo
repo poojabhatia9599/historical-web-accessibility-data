@@ -1,0 +1,43 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/*
+YUI 3.18.0 (build 790466e)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+YUI.add("lang/autocomplete-list_en",function(e){e.Intl.add("autocomplete-list","en",{item_selected:"{item} selected.",items_available:"Suggestions are available. Use up and down arrows to select."})},"3.18.0");
+
+
+}
+/*
+     FILE ARCHIVED ON 14:43:41 Apr 01, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:41:48 Dec 13, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 102.944
+  exclusion.robots: 0.179
+  exclusion.robots.policy: 0.165
+  cdx.remote: 0.08
+  esindex: 0.013
+  LoadShardBlock: 62.173 (3)
+  PetaboxLoader3.datanode: 82.748 (5)
+  load_resource: 165.143 (2)
+  PetaboxLoader3.resolve: 87.69 (2)
+*/

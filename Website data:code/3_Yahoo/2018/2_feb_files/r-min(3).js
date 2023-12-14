@@ -1,0 +1,39 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+YUI.add("td-applet-specialevent-electionmap",function(e,t){"use strict";var n;e.namespace("TD.Applet").SpecialEventElectionMap=e.Base.create("TDAppletSpecialEventElectionMap",e.Af.AppletView,[],{initializer:function(n){var r=this;return this.interval=parseInt(n.autoRefreshInterval,10),this.interval>0&&e.later(this.interval,r,r.refreshMap,n,!0)},refreshMap:function(t){var n=this.get("container"),r=n.one(".election-img"),i=Math.floor(Date.now()/this.interval);r&&t.url&&r.setAttribute("src",t.url+"?cachebust="+i)}})},"@VERSION@",{requires:["af-applet-view"]});
+YUI.add("td-applet-specialevent-templates-electionmap",function(e,t){dust.cache=dust.cache||{},dust.cache[t]=function(){return function(){function e(e,o){return e.exists(o.get("clickurl"),o,{block:t},null).write("\n    ").exists(o.get("headerurl"),o,{block:n},null).write("\n").exists(o.get("url"),o,{block:r},null).write("\n").exists(o.get("clickurl"),o,{block:i},null).write("\n").exists(o.get("refreshRateSecs"),o,{block:s},null).write("\n")}function t(e,t){return e.write("\n").write('<a class="Td(n):h D(b) Ov(h)" href="').reference(t.get("clickurl"),t,"h").write('" ').helper("rapid_data_attr",t,{},{"rapid-base":t.get("i13n"),elm:"img",elmt:"map",itc:"1"}).write(">").write("\n")}function n(e,t){return e.write("\n    ").write('<img class="Trsdu(.42s) D(b) Mt(10px) W(100%)" alt="Live Election Results" title="Live Election Results" src="').reference(t.get("headerurl"),t,"h").write('">').write("\n    ")}function r(e,t){return e.write("\n    ").write('<img class="D(b) W(100%) election-img" title="Live Election Results" src="').reference(t.get("url"),t,"h").write('">').write("\n")}function i(e,t){return e.write("\n").write("</a>").write("\n")}function s(e,t){return e.write("\n").helper("gt",t,{block:o},{key:t.get("refreshRateSecs"),value:0}).write("\n")}function o(e,t){return e.write("\n").write('<div class="Ta(end) C($gray) Mb(20px)">Results update every ').helper("select",t,{block:u},{key:t.get("refreshRateSecs")}).write("</div>").write("\n")}function u(e,t){return e.write("\n        ").helper("gt",t,{block:a},{value:119}).write("\n        ").helper("lt",t,{block:f},{value:60}).write("\n        ").helper("gt",t,{block:l},{value:59}).write("\n    ")}function a(e,t){return e.write("\n            ").reference(t.get("refreshRateMin"),t,"h").write(" minutes").write("\n        ")}function f(e,t){return e.write("\n            ").reference(t.get("refreshRateSecs"),t,"h").write(" seconds").write("\n        ")}function l(e,t){return e.write("\n            ").reference(t.get("refreshRateMin"),t,"h").write(" minute").write("\n        ")}return dust.register("td-applet-specialevent-templates-electionmap",e),e}()}(),dust.cache["td-applet-specialevent:electionmap.dust"]=dust.cache["td-applet-specialevent:electionmap"]=dust.cache[t],e.Template._cache=e.Template._cache||{},e.Template._cache["td-applet-specialevent/templates/electionmap"]=function(e,n){e=e||{},dust.render(t,e,n)}},"@VERSION@",{requires:["template-base","dust"]});
+YUI.add("td-applet-specialevent-templates-medalcount",function(e,t){dust.cache=dust.cache||{},dust.cache[t]=function(){return function(){function e(e,n){return e.write('<img src="https://web.archive.org/web/20180131221706/https://s.yimg.com/dh/ap/default/160726/rio-logo@2x.png" style="height:20px;display:inline-block;"/>').write("\n").write('<h2 style="display:inline-block;line-height:18px;margin:0;"><a href="').reference(n.getPath(!1,["config","url"]),n,"h").write('" style="color:#000;font-size:').section(n.get("context"),n,{block:t},{region:n.getPath(!1,["context","region"])}).write(';font-weight:bold;text-decoration:none;margin-left:5px;">').helper("intlMessage",n,{},{_key:"TITLE"}).write('<u style="top:0;bottom:0;left:0;right:0;position:absolute;z-index:1;"></u></a></h2>').write("\n").write('<ul class="chartlist Mb(30px)" style="margin-top:20px;">').write("\n    ").section(n.get("data"),n,{block:i},null).write("\n").write("</ul>").write("\n")}function t(e,t){return e.helper("eq",t,{"else":n,block:r},{key:t.get("region"),value:"BR"})}function n(e,t){return e.write("15px")}function r(e,t){return e.write("13px")}function i(e,t){return e.write("\n    ").write('<li style="position:relative;">').write("\n        ").write('<div style="float:left;">').write("\n            ").write('<img src="https://web.archive.org/web/20180131221706/https://s.yimg.com/os/sp/oly/flags/64x42/').reference(t.get("country_code"),t,"h").write('.png" style="height:21px;"/>').write("\n            ").write('<h4 style="display:inline;font-size:12px;font-weight:500;">').reference(t.get("abbreviation"),t,"h").write("</h4>").write("\n        ").write("</div>").write("\n        ").write('<div style="padding-left:80px;">').write("\n            ").write('<h5 class="index" style="display:table;margin:.55em 0;width:100%;">').write("\n                ").write('<span style="width:').reference(t.get("gold_percent"),t,"h").write('%;height:20px;background-color:#f9e68c;display:table-cell;"></span><span style="width:').reference(t.get("silver_percent"),t,"h").write('%;height:20px;background-color:#e1e3e6;display:table-cell;"></span><span style="width:').reference(t.get("bronze_percent"),t,"h").write('%;height:20px;background-color:#e5bda4;display:table-cell;"></span>').write("\n                ").write('<span style="font-size:15px;font-weight:bold;padding-left:4px;">').reference(t.get("total"),t,"h").write('</span><span style="width:').reference(t.get("filler_percent"),t,"h").write('%;height:20px;background-color:transparent;display:table-cell;"></span>').write("\n            ").write("</h5>").write("\n        ").write("</div>").write("\n    ").write("</li>").write("\n    ")}return dust.register("td-applet-specialevent-templates-medalcount",e),e}()}(),dust.cache["td-applet-specialevent:medalcount.dust"]=dust.cache["td-applet-specialevent:medalcount"]=dust.cache[t],e.Template._cache=e.Template._cache||{},e.Template._cache["td-applet-specialevent/templates/medalcount"]=function(e,n){e=e||{},dust.render(t,e,n)}},"@VERSION@",{requires:["template-base","dust"]});
+YUI.add("td-applet-specialevent",function(e,t){"use strict";e.namespace("TD.Applet").SpecialEventMainView=e.Base.create("TDAppletSpecialEventMainView",e.Af.AppletView,[],{events:{"a.more":{click:"openPopUp"}},openPopUp:function(e){e.preventDefault()}})},"@VERSION@",{requires:["af-applet-view"]});
+
+
+}
+/*
+     FILE ARCHIVED ON 22:17:06 Jan 31, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:34:13 Dec 13, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 73.783
+  exclusion.robots: 0.107
+  exclusion.robots.policy: 0.098
+  cdx.remote: 0.054
+  esindex: 0.009
+  LoadShardBlock: 40.848 (3)
+  PetaboxLoader3.datanode: 68.73 (5)
+  load_resource: 220.824 (2)
+  PetaboxLoader3.resolve: 151.187 (2)
+*/
