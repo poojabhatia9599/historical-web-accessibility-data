@@ -58,7 +58,7 @@ for error_detail in WAVE_to_WCAG:
 if tool == "WAVE" or "wave" or "Wave":
     for input in inputs:
         try:
-            URL = "https://wave.webaim.org/api/request?key=tI5uxMGC3219&reporttype=2&url=" + input
+            URL = "https://wave.webaim.org/api/request?key={wave_api_key}&reporttype=2&url=" + input
             print('-------------------------------------------------')
             print(input)
             month_year = input[28:36]
