@@ -1,0 +1,20 @@
+@keyframes fadeInCmnts{0%{opacity:0}to{opacity:1}}@keyframes fadeInToast{0%,to{opacity:0}10%,80%{opacity:1}}@keyframes hideStreamItem{0%{opacity:1;height:140px}to{opacity:0;height:0}}@keyframes fadeOutAdConfirm{0%{opacity:1}60%{opacity:.8}to{opacity:0}}.comment-count-anim{animation-delay:2s;animation:fadeInCmnts 2.5s}.stream-item:not(.userintent-liked) .userintent-toast{display:none}.userintent-disliked-anim,.userintent-toast{animation-fill-mode:forwards;animation:fadeInToast 6s}.userintent-disliked-anim{animation:hideStreamItem .8s;animation-timing-function:ease-in;height:0;opacity:0;will-change:height,opacity}.show-then-hide-ad-confirmation{animation-delay:3s;animation:fadeOutAdConfirm 3s;will-change:opacity}.show-then-hide-give-feedback-screen{animation-delay:6s;animation:fadeOutAdConfirm 6s;will-change:opacity}#atomic .stream-items li .stream-item-image.wafer-error,.stream-batch-fetch.wafer-fetch-error+li.stream-ad{display:none}#atomic .stream-items .userintent-liked.contentpref-clicked-mouseover .contentpref-btn-like:hover{min-width:376px}#atomic .stream-items .userintent-disliked:not(.contentpref-clicked-mouseover) .contentpref-btn-dislike:hover,#atomic .stream-items .userintent-liked:not(.contentpref-clicked-mouseover) .contentpref-btn-like:hover{min-width:35px}#atomic .enableIsReadUI .stream-title .item-interacted,#atomic .enableIsReadUI .stream-title.item-interacted{color:var(--dolphin)}#atomic .userintent-liked.contentpref-clicked-mouseover .contentpref-btn-like{display:inline}#atomic .userintent-disliked:not(.contentpref-clicked-mouseover) .contentpref-btn-dislike:hover label,#atomic .userintent-liked:not(.contentpref-clicked-mouseover) .contentpref-btn-like:hover label{display:none!important}#atomic .userintent-reason button.wafer-fetch:not(.wafer-fetch-complete) .userintent-reason-follow:after{border-left:20px;border-right:20px;background-color:var(--white);height:14px}#atomic .userintent-reason button.wafer-fetch:not(.wafer-fetch-complete) .userintent-reason-follow:before{border-left:20px;border-right:20px;height:14px}#atomic .userintentmgmt-panel button.wafer-fetch:not(.wafer-fetch-complete)+.userintent-panel:after,#atomic .userintentmgmt-panel button.wafer-fetch:not(.wafer-fetch-complete)+.userintent-panel:before{border-left:20px;border-right:20px;background-color:var(--white);height:14px}#atomic .userintentmgmt-panel button.wafer-fetch:not(.wafer-fetch-complete)+.userintent-panel:after{content:' ';width:180px;display:block}#atomic .userintent-reason button.wafer-fetch:not(.wafer-fetch-complete) .userintent-reason-follow:after,#atomic .userintentmgmt-panel button.wafer-fetch:not(.wafer-fetch-complete)+.userintent-panel.userintent-follow-enabled:after{content:' ';width:180px;display:block;margin-top:4px}#atomic .userintent-reason button.wafer-fetch:not(.wafer-fetch-complete) .userintent-reason-follow:before,#atomic .userintentmgmt-panel button.wafer-fetch:not(.wafer-fetch-complete)+.userintent-panel.userintent-follow-enabled:before{content:' ';background-color:var(--grey-hair);width:75px;display:block}[data-test-uuid=true]{border:1px dashed var(--batcave)}
+/*
+     FILE ARCHIVED ON 00:11:45 Jan 01, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:00:56 Jan 24, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.094
+  exclusion.robots.policy: 0.082
+  cdx.remote: 0.115
+  esindex: 0.013
+  LoadShardBlock: 207.288 (6)
+  PetaboxLoader3.datanode: 188.979 (8)
+  load_resource: 245.406 (2)
+  PetaboxLoader3.resolve: 124.999 (2)
+*/

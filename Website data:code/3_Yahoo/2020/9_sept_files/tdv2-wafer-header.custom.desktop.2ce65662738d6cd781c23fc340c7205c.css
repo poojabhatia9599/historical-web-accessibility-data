@@ -1,0 +1,21 @@
+@keyframes glowing{0%,67%{background-color:#5701ed}33%,to{background-color:#0f69ff}}@keyframes glowing-bd{0%,67%{border-color:#5701ed}33%,to{border-color:#0f69ff}}#header-search-input::-ms-clear{display:none}#header-search-form .submit-btn,#header-search-input{-webkit-animation-name:glowing;animation-name:glowing;-webkit-animation-duration:3s;animation-duration:3s;animation-delay:2s;animation-fill-mode:both}#header-search-input{-webkit-animation-name:glowing-bd;animation-name:glowing-bd;animation-fill-mode:backwards}#navbar-mail-count[data-mail-count="0"],#navbar-mail-dot[data-mail-count="0"]{display:none}
+/*
+     FILE ARCHIVED ON 00:13:46 Sep 01, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:52:19 Dec 13, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 145.637
+  exclusion.robots: 0.063
+  exclusion.robots.policy: 0.055
+  cdx.remote: 0.05
+  esindex: 0.01
+  LoadShardBlock: 67.296 (3)
+  PetaboxLoader3.datanode: 90.021 (5)
+  load_resource: 196.491 (2)
+  PetaboxLoader3.resolve: 141.832 (2)
+*/

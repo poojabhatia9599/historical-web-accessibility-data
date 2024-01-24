@@ -1,0 +1,20 @@
+@supports ((-webkit-filter:blur(15px)) or (filter:blur(15px))){.ntk-img-crop{background-position:right center;display:block!important;-webkit-filter:blur(15px);filter:blur(15px);opacity:.24;-webkit-transform:scale(1.5) scaleX(-1);transform:scale(1.5) scaleX(-1)}}.ntk-link:before{position:absolute;background:var(--white);left:59.6%;top:0;bottom:0;right:0;content:' ';z-index:1}.ntk-lead-tile .ntk-link:before{left:49.5%;background-color:transparent}.webkit-alias{-webkit-font-smoothing:antialiased}.grid-layout.ntk-item:after{content:'';position:absolute;z-index:-1;opacity:0;border-radius:12px;-webkit-box-shadow:0 10px 10px 0 rgba(29,34,40,.1);box-shadow:0 10px 10px 0 rgba(29,34,40,.1);-webkit-transition:opacity .3s ease;transition:opacity .3s ease;top:0;bottom:0;left:0;right:20px}.grid-layout.ntk-item:hover::after{opacity:1}.aspect-ratio-box{overflow:hidden;position:relative;height:0}.aspect-ratio-box::before{float:left;content:''}.aspect-ratio-box::after{display:block;content:'';clear:both}.aspect-35-17{padding-top:48.57%}.aspect-89-45{padding-top:56.25%}@supports (aspect-ratio:16/9){.aspect-ratio-box{height:unset}.aspect-ratio-box::before{float:unset}.aspect-ratio-box::after{display:unset;clear:unset}.aspect-35-17,.aspect-89-45{aspect-ratio:35/17;padding-top:unset}.aspect-89-45{aspect-ratio:89/45}}
+/*
+     FILE ARCHIVED ON 22:34:27 Nov 30, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:00:46 Jan 24, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.094
+  exclusion.robots.policy: 0.084
+  cdx.remote: 0.104
+  esindex: 0.013
+  LoadShardBlock: 150.03 (6)
+  PetaboxLoader3.datanode: 196.49 (7)
+  load_resource: 174.015
+  PetaboxLoader3.resolve: 64.121
+*/
