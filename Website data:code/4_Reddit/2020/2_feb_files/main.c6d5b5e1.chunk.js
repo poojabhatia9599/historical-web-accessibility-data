@@ -1,0 +1,35 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(this["webpackJsonpmcdonalds-mcchicken-griddle"]=this["webpackJsonpmcdonalds-mcchicken-griddle"]||[]).push([[0],[,,,,,,,,function(e,t,a){e.exports=a(20)},,,,,function(e,t,a){},function(e,t,a){},function(e,t,a){},function(e,t,a){},function(e,t,a){},function(e,t,a){},function(e,t){e.exports="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAApCAYAAABKvBuPAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTFCQjJENkY0MTIwMTFFQThFNkNCOEU4Nzc5NkNFQzkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTFCQjJENzA0MTIwMTFFQThFNkNCOEU4Nzc5NkNFQzkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MUJCMkQ2RDQxMjAxMUVBOEU2Q0I4RTg3Nzk2Q0VDOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MUJCMkQ2RTQxMjAxMUVBOEU2Q0I4RTg3Nzk2Q0VDOSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pg7txoUAAAO+SURBVHja1FnNS1RRFH9Ohpkj1miZllkQaZCItZBAVxpEC9sU0SoLhBZ90EZs0cLaFAQSBf4FCkUt2rRJyLTPhUWUjrZM86O0GdOyzI9+V8/E9XjffXfe3IbpwI/LPee83/m9885782YmzTG0xUfZdViagEpgHngK3Eg7OPXQ8WHgO4SlEagC1gCvgOvge2ByfJpBAZFzEzjnknILuIiC84aChcgWDd9t4Dz4FnU8AYNa1zRFHIq1xtHsVg++s1TT8S0c3TlGlzNmnUA+sAvokfwNyD1j0G2R0yC5eogrn7hj1ki14x8VHJiLpQ/YTK4RYC8u4VeKb8HyDsij+DSwB/EhF76tWPqBILnGgTLkj1I8RHyFFP9CfBPxdvyyJFrYlZjopTNeLtgsxYM0u27WIokW1hwTTXyC+6oU30QazDuOs9+OZQBYR64IUADyXyxvPRbR4Y2Sex/y3rC8CiyvJZfg24a8HywvA8swECKXqLcbeR9NO35BEi2snYumLonCbcx9ScHXxPZtXDTxiRrtkiuDtHiPCnXxFHPf04zAHbY/Co6dEt8OLPxGu6vhu8/2p0mTZ8ePs0svLmu3ptBzYIKNX720r2cjKXKfafi6qWbMNpAmT+En2L5L9+GC2AKWDuY+iS4FBNhJCOugY9z4RK0uD00rhaOQeIrUsJwnBh8qj9m+GDhAKGaxTgM+nlND2lw7XqfwvTAopMo5Qnyq0fKyl4oG1+mEH2Z7cdneGhTqBWYUTeDCZyjXy0TNOZ22gDQma7HUsuQwZm7G801teS77mbsEKGW+fpOXMaoZZu5a0riq4/uBbJb8IY6Xp/eWctxqZ5PGVcKrFQf3WRbeGwdfWOGrVgmvMjjrREXF0/EBha9KJbwywY6HLeXocitXCMfQF9I7cSIdH7KUo+t4Pmn92/EKRVIEd/eUaRXkzmIZ06SMUY4p3zT76HdkrTHh5YqEUR/fgQd9xtxsROErl4WXWio0ZGlMdMeUysJLDM822cJVGkqSLfyTD75hV+H0pTjH0qhENbGIpUbkCM2i40UuB322LDzqg89NQ5FO+KSPQhHLwieTJTyaTOEFLsFvKTDjbsILAtIvUf9Tx/NsC5/1GfMlPFcRmFP9YGPwfhH1IcLrm9BvRWjpcRhSBL47ls3r926NqRoYEsKDisBPJ3VMJTwohGdZFq56Gk0lwKe6N7KE8EzLHVKNxILlGpkBl/eU+RQaFdXNmZPukpzIpS1zlv9Fs9Vx5YMi/R88PQaTcRkCTuqb8jH6R4ABAJ6eLtb7hnjtAAAAAElFTkSuQmCC"},function(e,t,a){"use strict";a.r(t);var c=a(0),n=a.n(c),i=a(7),l=a.n(i),r=(a(13),a(14),a(15),a(16),a(1)),o=a(2),s=a(4),m=a(3),d=a(5),h=(a(17),function(e){function t(){return Object(r.a)(this,t),Object(s.a)(this,Object(m.a)(t).apply(this,arguments))}return Object(d.a)(t,e),Object(o.a)(t,[{key:"render",value:function(){return n.a.createElement("div",{className:"wrapper"},n.a.createElement("div",{className:"contentVideo"},n.a.createElement("iframe",{src:"https://web.archive.org/web/20200204011125/https://cdn.jwplayer.com/players/".concat(this.props.srcVideo," "),width:"100%",height:"100%",frameBorder:"0",scrolling:"auto",title:"Reddit Mcd Coach Down V008",allowFullScreen:!0})))}}]),t}(c.Component)),A=(a(18),function(e){function t(){return Object(r.a)(this,t),Object(s.a)(this,Object(m.a)(t).apply(this,arguments))}return Object(d.a)(t,e),Object(o.a)(t,[{key:"tracking",value:function(e,t){window.gtag("event",e,{event_category:"Click",event_label:t})}},{key:"render",value:function(){var e=this;return n.a.createElement("div",{className:"content-footer"},n.a.createElement("div",{className:"grid-container"},n.a.createElement("div",{className:"grid-x content-link"},n.a.createElement("div",{className:"cell shrink content-logo"},n.a.createElement("img",{src:a(19),alt:"McDonalds Logo"})),n.a.createElement("div",{className:"cell shrink text-link"},n.a.createElement("a",{className:"App-link",href:"https://web.archive.org/web/20200204011125/https://www.mcdonalds.com/us/en-us/restaurant-locator.html",target:"_blank",rel:"noopener noreferrer",onClick:function(){return e.tracking("click","Redd_ChckMcgriddle_store")}},"Restaurant Locator")))))}}]),t}(c.Component));var E=function(){return n.a.createElement("div",{className:"App"},n.a.createElement("header",{className:"App-header"},n.a.createElement("div",{className:"grid-container wrap"},n.a.createElement("div",{className:"grid-x content-title"},n.a.createElement("div",{className:"cell small-12 title"},"Wake Up...")))),n.a.createElement("div",{className:"grid-container wrap"},n.a.createElement("div",{className:"grid-x align-middle"},n.a.createElement("div",{className:"cell videos"},n.a.createElement(h,{srcVideo:"t3SI13Q8-1Apnv5J6.html"})),n.a.createElement("div",{className:"cell videos"},n.a.createElement(h,{srcVideo:"Tdx4CgTP-1Apnv5J6.html"})),n.a.createElement("div",{className:"cell videos-mobile"},n.a.createElement(h,{srcVideo:"t3SI13Q8-ssJqW5d6.html"})),n.a.createElement("div",{className:"cell videos-mobile"},n.a.createElement(h,{srcVideo:"Tdx4CgTP-ssJqW5d6.html"})))),n.a.createElement(A,{className:"App-footer"}))};Boolean("localhost"===window.location.hostname||"[::1]"===window.location.hostname||window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/));l.a.render(n.a.createElement(E,null),document.getElementById("root")),"serviceWorker"in navigator&&navigator.serviceWorker.ready.then((function(e){e.unregister()}))}],[[8,1,2]]]);
+//# sourceMappingURL=main.c6d5b5e1.chunk.js.map
+
+}
+/*
+     FILE ARCHIVED ON 01:11:25 Feb 04, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:48:15 Feb 20, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.068
+  exclusion.robots.policy: 0.057
+  cdx.remote: 0.094
+  esindex: 0.009
+  LoadShardBlock: 112.312 (6)
+  PetaboxLoader3.datanode: 165.53 (8)
+  load_resource: 227.484 (2)
+  PetaboxLoader3.resolve: 163.508 (2)
+*/
